@@ -468,6 +468,122 @@ ul
 }
 
 
+/* schedule */
+.schedule
+{
+    text-align: center;
+    margin: 25px auto;
+}
+.table
+{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.programmes
+{
+    height: auto;
+    /* width: 100%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+}
+.programmes .head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .programmes h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: inherit;
+}
+.programmes h3
+{
+    font-size: 25px;
+    font-weight: inherit;
+} */
+.table-box
+{
+    /* margin: 50px auto; */
+    /* background: rgba(0, 0, 0, .15); */
+}
+.table-row
+{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    padding: 12px 0;
+    color: #555;
+    font-size: 18px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.table-cell
+{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.tablehead
+{
+    background:linear-gradient(to right, #0074f8, #fff, #0074f8);
+    box-shadow: none;
+    color: #fff;
+    font-weight: 700;
+}
+#indicator
+{
+    width: 150px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(550px);
+    transition: transform 1s;
+}
+.covid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.announcements
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    /* background: rgba(0, 0, 0, .15); */
+}
+.announcements .churchAnnouncements
+{
+    height: auto;
+    color: #000
+}
+.events
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    color: #000;
+}
+
+
 
 
 
@@ -542,5 +658,15 @@ ul
     .cart-info p
     {
         display: none;
+    }
+    #indicator
+    {
+    width: 150px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(125px);
+    /* transition: transform 1s; */
     }
 }
