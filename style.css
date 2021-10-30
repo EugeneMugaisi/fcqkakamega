@@ -738,6 +738,7 @@ ul
     .col-2, .col-3, .col-4
     {
         flex-basis: 100%;
+        margin: 15px;
     }
     .single-product .row
     {
@@ -769,5 +770,25 @@ ul
     .map
     {
         margin: 50px;
+    }
+    .about
+    {
+        margin: 15px;
+    }
+    .table-row
+    {
+        width: 100%;
+    }
+    .head
+    {
+        text-align: center;
+    }
+    .table-box
+    {
+        width: 100%;
+    }
+    .covid, .events, .announcements
+    {
+        text-align: center;
     }
 }
