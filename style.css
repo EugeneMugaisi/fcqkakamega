@@ -546,7 +546,7 @@ ul
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(550px);
+    transform: translateX(680px);
     transition: transform 1s;
 }
 .covid
@@ -604,9 +604,81 @@ ul
     margin: 100px auto 50px;
 }
 
-
-
-
+/* contactf form */
+.contactForm
+{
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+    font-weight: 500;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(255, 136, 0);
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: rgb#0055f7;
+    font-size: 12px;
+    transform: translatey(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: rgb(255, 136, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.maps
+{
+    height: 400px;
+}
+.map
+{
+    margin: 20px;
+}
+.footer-col-4 a
+{
+    color: #fff;
+}
 
 
 
@@ -687,7 +759,11 @@ ul
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(125px);
+    transform: translateX(175px);
     /* transition: transform 1s; */
+    }
+    .map
+    {
+        margin: 50px;
     }
 }
