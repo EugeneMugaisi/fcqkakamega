@@ -96,6 +96,11 @@ p
 {
     background: radial-gradient(#fff,#0074f8);
 }
+.header-contacts
+{
+    background: url(images/hp10.jpg);
+    background-size: cover;
+}
 .header .row
 {
     margin-top: 70px;
@@ -616,6 +621,7 @@ ul
     background: #fff;
     border-radius: 5px;
     margin-bottom: 20px;
+    opacity: .6;
 }
 .contactForm h2
 {
@@ -828,4 +834,8 @@ ul
     {
         text-align: center;
     }
+    /* .header-contacts
+    {
+        background: radial-gradient(#fff,#0074f8);
+    } */
 }
