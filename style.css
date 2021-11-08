@@ -343,6 +343,10 @@ p
     font-size: 34px;
     color: #ff523b;
 }
+.rating .fa
+{
+    color: #ff523b;
+}
 /* footer */
 .footer
 {
@@ -629,7 +633,7 @@ ul
     background: #fff;
     border-radius: 5px;
     margin-bottom: 20px;
-    opacity: .6;
+    /* opacity: .6; */
 }
 .contactForm h2
 {
