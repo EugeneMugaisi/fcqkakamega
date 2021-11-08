@@ -186,6 +186,10 @@ p
     font-weight: 300;
     transition: .5s;
 }
+.container2 .card .content li
+{
+    color: #fff;
+}
 .container2 .card:hover .content h3,
 .container2 .card .content p
 {
