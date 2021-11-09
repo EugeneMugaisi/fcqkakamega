@@ -109,6 +109,20 @@ p
 {
     margin-top: 70px;
 }
+.header-2
+{
+    background: url(images/church14.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.ministries h1
+{
+    font-size: 50px;
+}
+.header-2 p
+{
+    color: #fff;
+}
 .menu-icon
 {
     width: 28px;
@@ -739,7 +753,11 @@ ul
     color: #fff;
 }
 
-
+ /* ministries */
+.ministries h1
+{
+    text-align: center;
+}
 
 
 
@@ -850,4 +868,12 @@ ul
     {
         background: radial-gradient(#fff,#0074f8);
     } */
+    .header-2 h1
+    {
+        font-size: 28px;
+    }
+    .header-2 .row h1
+    {
+        font-size: 20px;
+    }
 }
