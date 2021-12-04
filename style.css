@@ -877,4 +877,8 @@ ul
     {
         font-size: 20px;
     }
+    .row .col-2 li
+    {
+        text-align: justify;
+    }
 }
