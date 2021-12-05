@@ -881,4 +881,9 @@ ul
     {
         text-align: justify;
     }
+    .announcements ul
+    {
+        list-style-type: lower-roman;
+        text-align: left;
+    }
 }
