@@ -764,9 +764,15 @@ ul
     list-style-type: disc;
     text-align:left;
 }
-
-
-
+/* sermons */
+.sermon p
+{
+    text-align: left;
+}
+.sermon ul
+{
+    list-style: disc;
+}
 
 
 
