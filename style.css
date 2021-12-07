@@ -582,7 +582,7 @@ ul
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(680px);
+    transform: translateX(560px);
     transition: transform 1s;
 }
 .covid
@@ -773,6 +773,35 @@ ul
 {
     list-style: disc;
 }
+/* events */
+.upcoming
+{
+    padding-top: 100px;
+}
+.upcoming .col-3
+{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.upcoming .col-3 img
+{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.upcoming .col-3:hover
+{
+    transform: translateY(-10px);
+}
+.upcoming ul
+{
+    list-style: disc;
+    text-align: left;
+}
+
 
 
 
@@ -849,7 +878,7 @@ ul
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(150px);
+    transform: translateX(120px);
     /* transition: transform 1s; */
     }
     /* .map
