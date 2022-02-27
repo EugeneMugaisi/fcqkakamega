@@ -306,6 +306,10 @@ p
         transform: translateX(-100%);
     }
 }
+.prog-container
+{
+    padding: 30px;
+}
 /* from gallery */
 .categories
 {
